@@ -10,8 +10,10 @@
     "bootstrap": "cdk bootstrap aws://495327713453/us-east-1"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.89.0",
     "@aws-cdk/aws-certificatemanager": "^1.89.0",
     "@aws-cdk/aws-cloudfront": "^1.89.0",
+    "@aws-cdk/aws-lambda": "^1.89.0",
     "@aws-cdk/aws-route53": "^1.89.0",
     "@aws-cdk/aws-route53-targets": "^1.89.0",
     "@aws-cdk/aws-s3": "^1.89.0",

@@ -1,6 +1,7 @@
 import { Construct, Stack } from '@aws-cdk/core';
 import { CloudfrontResources } from './cloudfront';
 import { S3Resources } from './s3';
+import { ApiResources } from './api';
 
 export class Infrastructure extends Stack {
     constructor(scope: Construct, id: string) {
@@ -8,5 +9,6 @@ export class Infrastructure extends Stack {
 
         new S3Resources(this);
         new CloudfrontResources(this);
+        new ApiResources(this);
     }
 }
